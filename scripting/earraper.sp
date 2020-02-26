@@ -11,7 +11,7 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
-    RegAdminCmd("sm_earrape", Command_Earrape, ADMFLAG_ROOT, "sm_earrape <#userid|name> <filename> <number of time it plays simutaneously>");
+    RegAdminCmd("sm_earrape", Command_Earrape, ADMFLAG_ROOT, "sm_earrape <#userid|name> <filename> <number of time the file will play at once>");
 }
 
 public Action Command_Earrape(int client, int args)
